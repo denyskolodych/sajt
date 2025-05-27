@@ -1,0 +1,37 @@
+h1{
+    text-align: center;
+    background-color: rgb(175, 203, 227);
+    margin: 20px 0;
+}
+.game-board{
+    width: 52%;
+    height: 520px;
+    margin: 0 auto;
+    background-color: rgb(123, 91, 125);
+    border:2px solid rgb(27, 24, 25)
+}
+.element{
+    width: 75px;
+    height: 75px;
+    top:80px; 
+    left: 380px;
+    position:absolute;
+    margin: 10px;
+    display: inline-block;
+    background-color: rgb(144, 21, 231);
+    border-radius: 10px;
+    text-align: center;
+    line-height: 75px;
+    cursor: pointer;
+
+
+
+
+}
+.element:hover{
+    background-color: rgb(75, 27, 71);
+}
+.element.hidden{
+    color: transparent;
+    
+}
